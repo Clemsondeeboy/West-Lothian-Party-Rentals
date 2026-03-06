@@ -1,1 +1,0 @@
-# West-Lothian-Party-Rentals
