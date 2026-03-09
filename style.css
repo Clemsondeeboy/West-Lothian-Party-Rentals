@@ -175,15 +175,17 @@ body{
   text-decoration: none;
   width: 203px;
   height: 40px;
+  padding: 10px 30px;
   margin-top: 5rem !important;
   color: #fff;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background: #b89655;
+  border: none;
 }
 
 .custom-btn:hover {
-  background: transparent;
+  background: initial;
   border: 1px solid #b89655;
   color: #b89655;
 }
@@ -878,7 +880,7 @@ background: #1d2d44;
 }
 
 /* Search icon */
-.gallery-overlay i {
+.gallery-overlay h6 {
   color: #fff;
   font-size: 28px;
   transform: scale(0.8);
@@ -1181,7 +1183,7 @@ background: #1d2d44;
     font-family: Montserrat;
     font-weight: 500;
     font-style: Medium;
-    font-size: 24px;
+    font-size: 22px;
     color: rgba(24, 50, 83, 0.9);
   }
   h5{
@@ -1191,11 +1193,11 @@ background: #1d2d44;
     font-size: 16px;
   }
   h1{
-    width: 503px;
+    width: 532px;
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
-    font-size: 30px;
+    font-size: 25px;
   }
   p{
     font-family: Open Sans;
@@ -1210,10 +1212,10 @@ background: #1d2d44;
     width: 100% !important;
     }
     .banner-section{
-      height: 30% !important;
+      height: 50% !important;
     }
     .banner-text{
-      padding-top: 12rem !important;
+      padding-top: 16rem !important;
       padding-bottom: 5rem !important;
     }
     .banner-text p{
@@ -1703,6 +1705,7 @@ label{
 input,
 select,
 textarea{
+  width: 100%;
   padding:12px;
   border:none;
   background:#f3f5f7;
