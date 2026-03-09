@@ -175,7 +175,7 @@ body{
   text-decoration: none;
   width: 203px;
   height: 40px;
-  padding: 10px 30px;
+  padding: 10px 20px;
   margin-top: 5rem !important;
   color: #fff;
   border-top-left-radius: 10px;
@@ -196,13 +196,30 @@ body{
   padding: 10px 30px;
   margin-top: 3rem !important;
   color: #fff;
-  gap: 10px;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background: #b89655;
   border: none;
 }
 
+.booknow-btn{
+  text-decoration: none;
+  text-align: center;
+  width: 203px;
+  height: 40px;
+  margin-top: 5rem !important;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #b89655;
+  border: none;
+}
+
+.booknow-btn:hover {
+  background: transparent;
+  border: 1px solid #b89655;
+  color: #b89655;
+}
 .custom-btn2:hover {
   background: transparent;
   border: 1px solid #b89655;
@@ -752,7 +769,8 @@ background: #1d2d44;
 }
 
 .right-img img {
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   width: 100%;
   height: auto;
 }
@@ -896,7 +914,7 @@ background: #1d2d44;
   opacity: 1;
 }
 
-.gallery-item:hover .gallery-overlay i {
+.gallery-item:hover .gallery-overlay h6 {
   transform: scale(1);
 }
 
