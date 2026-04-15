@@ -14,45 +14,7 @@
 </head>
 
 <body>
-  <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg custom-navbar">
-  <div class="container-fluid">
-
-    <a class="navbar-brand" href="index.html">
-      <img class="img-fluid" src="images/WEST_LOGO-removebg-preview 1.png" alt="west-logo-removebg">
-    </a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item dropdown">
-  <a class="nav-link active dropdown-toggle" href="#" id="rentalsDropdown"
-     role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Rentals
-  </a>
-  <ul  class="dropdown-menu"  aria-labelledby="rentalsDropdown">
-    <li><a class="dropdown-item" href="tables.html">Tables</a></li>
-    <li><a class="dropdown-item" href="marquees.html">Marquees, Gazebos & Tent</a></li>
-    <li><a class="dropdown-item" href="chairs.html">Chairs</a></li>
-    <li><a class="dropdown-item" href="Chafing-Dishes.html">Chafing Dishes</a></li>
-  </ul>
-</li>
-        <li class="nav-item"><a class="nav-link" href="ghallery">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link" href="faq.html">FAQs</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-
-    <a href="request-quote.html" class="quote-btn">Get A Quote</a>
-
-  </div>
-</nav>
+ <?php include('header.php'); ?>
 <div class="banner-section">
   <div class="container">
     <div class="banner-text">
@@ -143,74 +105,7 @@
 </section>
 
 
-<footer class="footer">
-  <div class="container">
-    <div class="row gy-4">
-
-      <!-- Column 1: Logo + About -->
-      <div class="col-lg-3 col-md-6">
-        <img class="img-fluid mb-5" src="images/WEST_LOGO-removebg-preview 1.png" alt="West Lothian Logo"  width="160">
-        <p>
-          We provide reliable, high-quality tables, chairs, marquees, tents,
-          and catering equipment for weddings, parties, and community events.
-        </p>
-
-        <!-- Social Icons -->
-        <div class="social-icons mt-3">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-youtube"></i></a>
-        </div>
-      </div>
-
-      <!-- Column 2: Rentals -->
-      <div class="col-lg-3 col-md-6">
-        <h6>Rentals</h6>
-        <ul class="footer-links">
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Tables</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Chairs</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Gazebos</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Tents</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Chafing Dishes</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Marquees</a></li>
-        </ul>
-      </div>
-
-      <!-- Column 3: Quicklinks -->
-      <div class="col-lg-3 col-md-6">
-        <h6>Quicklinks</h6>
-        <ul class="footer-links">
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Home</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> About</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Gallery</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Contact</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> FAQs</a></li>
-        </ul>
-      </div>
-
-      <!-- Column 4: Support -->
-      <div class="col-lg-3 col-md-6">
-        <h6>Support</h6>
-        <ul class="footer-links">
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Help Centre</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Request a Quote</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Delivery & Setup Information</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Booking Policy</a></li>
-          <li><a href="#"><i class="fa-solid fa-angle-right"></i> Terms & Condition</a></li>
-        </ul>
-      </div>
-
-    </div>
-
-    <!-- Bottom Line -->
-    <hr class="footer-line">
-
-    <div class="text-center pt-3">
-      <p class="mb-0">© 2026 Westlothian. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
+<?php include('footer.php'); ?>
 <!-- <script src="dist/js/bootstrap.bundle.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

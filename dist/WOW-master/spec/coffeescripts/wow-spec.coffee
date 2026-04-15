@@ -24,7 +24,7 @@ describe 'WOW', ->
   describe 'simple test environment', ->
 
     beforeEach ->
-      loadFixtures 'simple.html'
+      loadFixtures 'simple.php'
 
     it 'emulates window height', ->
       expect document.documentElement.clientHeight
@@ -70,7 +70,7 @@ describe 'WOW', ->
     wow = null
 
     beforeEach (done) ->
-      loadFixtures 'simple.html'
+      loadFixtures 'simple.php'
       (wow = new WOW).init()
       setTimeout ->
         done()
@@ -174,7 +174,7 @@ describe 'WOW', ->
   describe 'custom test environment', ->
 
     beforeEach ->
-      loadFixtures 'custom.html'
+      loadFixtures 'custom.php'
 
     it 'emulates window height', ->
       expect document.documentElement.clientHeight
@@ -209,7 +209,7 @@ describe 'WOW', ->
 
     beforeEach (done) ->
       called = false
-      loadFixtures 'custom.html'
+      loadFixtures 'custom.php'
       new WOW
         boxClass:     'block'
         animateClass: 'fancy'
