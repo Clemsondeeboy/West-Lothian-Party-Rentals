@@ -18,7 +18,7 @@
 <div class="banner-section">
   <div class="container">
     <div class="banner-text">
-       <h2>CONTACT<img class="img-fluid" src="images/contact-icon.png" alt=""></h2>
+       <h2>CONTACT  <img class="img-fluid" src="images/contact-icon.png" alt=""></h2>
     </div>
   </div>
 </div>
